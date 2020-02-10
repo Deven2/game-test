@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+    </head>
+    <body>
+        <div id="gameArea">
+            <canvas id="myCanvas"></canvas>
+            
+            <div id="main_bar">
+                <div id="leftDiv">
+                    <div id="store"></div> 
+                    <div id="health"></div>        
+                </div>
+                
+
+                <div id="skills_bar" class="bar">
+                    <div class="sdiv">
+                        <button id="upgrade1" class="upgrade"></button>
+                        <input id="s1" class="skill" type="image" src="images/hud/fire-sword.png">
+                        <div class="level" id="s1_lvl"></div>
+                        <div class="mana_cost" id="s1_mana"></div>
+                    </div>
+                    <div class="sdiv">
+                        <button id="upgrade2" class="upgrade"></button>
+                        <input id="s2" class="skill" type="image" src="images/hud/shield.png">
+                        <div class="level" id="s2_lvl"></div>
+                        <div class="mana_cost" id="s2_mana"></div>
+                    </div>
+                    <div class="sdiv">
+                        <button id="upgrade3" class="upgrade"></button>
+                        <input id="s3" class="skill" type="image" src="images/hud/bloodlust.png">
+                        <div class="level" id="s3_lvl"></div>
+                        <div class="mana_cost" id="s3_mana"></div>
+                    </div> 
+                </div>
+
+                <div id="shop_bar" class="bar">
+                    <div class="sdiv">
+                        <button id="item1" class="upgrade"></button>
+                        <input id="i1" class="skill item" type="image" src="images/items/hp_soda.png">
+                        <div class="mana_cost item_quantity" id="i1_quantity"></div>
+                    </div>
+                    <div class="sdiv">
+                        <button id="item2" class="upgrade"></button>
+                        <input id="i2" class="skill item" type="image" src="images/items/mp_soda.png">
+                        <div class="mana_cost item_quantity" id="i2_quantity"></div>
+                    </div>
+                    <div class="sdiv">
+                        <button id="item3" class="upgrade"></button>
+                        <input id="i3" class="skill item" type="image" src="images/items/pizza.png">
+                        <div class="mana_cost item_quantity" id="i3_quantity"></div>
+                    </div> 
+                </div>
+                
+                <div id="rightDiv">
+                    <div id="money">
+                        <img id="goldcoin" src="images/hud/coin.png" alt="gold coin">
+                        <p id="money_amount"></p>
+                    </div> 
+                    <div id="mana"></div>        
+                </div>
+            </div>
+            
+        </div>
+        <script src="stats.js"></script>
+        <script></script>
+    </body>
+</html>
